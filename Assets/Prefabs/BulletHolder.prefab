@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 1762853016314616657}
   - component: {fileID: 5629196868216059372}
   - component: {fileID: -2439464065539358552}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BulletHolder
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,6 +227,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: carrot
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3cb9fedda3b9def4ba9f691cd7166056,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 3cb9fedda3b9def4ba9f691cd7166056,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cb9fedda3b9def4ba9f691cd7166056, type: 3}
